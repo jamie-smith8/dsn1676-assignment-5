@@ -9,3 +9,9 @@ $form.on('submit', function (e) {
     var $todoH2 = $('<h2>').html($todo.val());
     
 });
+
+$list.on('click', 'li', function () ;
+    $(this).addClass('line-through');
+         
+
+});
